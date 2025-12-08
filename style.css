@@ -3,6 +3,7 @@
     --green: #72D55D;
     --navg:#BFDE42;
     --white:#FFF;
+    --paracolor: #D1D5DC;
 }
 
 @font-face {
@@ -41,6 +42,10 @@ body{
     background-image: url(assets/Group\ 11.png);
     background-repeat: no-repeat;
     background-size: cover;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 nav{
     display: flex;
@@ -88,7 +93,6 @@ line-height: normal;
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
-    background-color: #0D0221;
 }
 .navbt{
     display: flex;
@@ -117,4 +121,131 @@ flex-shrink: 0;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
+}
+.s1div1{
+    width: 1318px;
+height: 793px;
+background-color: #0F8;
+margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.s1child{
+    width: 749px;
+height: 542.116px;
+background-color: var(--back);
+display: flex;
+flex-direction: column;
+display: flex;
+width: 749px;
+flex-direction: column;
+align-items: flex-start;
+gap: 21px;
+}
+.rickandmorty{
+    height: 228px;
+aspect-ratio: 749/228;
+width: 749px;
+background-image: url(assets/rickandmortypng.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.p1{
+    color: var(--paracolor);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+width: 515px;
+}
+.btdiv{
+    width: 579.69px;
+height: 187.116px;
+background-color: #0F8;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.btd1{
+    width: 579.69px;
+height: 96.988px;
+display: flex;
+flex-direction: row;
+justify-content: space-between
+}
+.bt1{
+    display: flex;
+width: 276.053px;
+height: 84.792px;
+transform: rotate(-2deg);
+padding: 19.906px 32.008px 6.274px 32.008px;
+flex-direction: row;
+align-items: flex-start;
+gap: 20px;
+border: 6.274px solid #000;
+background: linear-gradient(180deg, #0F8 0%, #0C6 100%);
+box-shadow: 0 -1px 19px 0 rgba(0, 255, 136, 0.52);
+align-items: center;
+}
+.icons{
+    width: 32.446px;
+height: 32.446px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.icon1{background-image: url(assets/Icon1.svg);}
+.icon2{background-image: url(assets/Icon2.svg);}
+.icon3{background-image: url(assets/Icon3.svg);}
+h4{
+    color: #000;
+font-size: 25.097px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.645px; /* 150% */
+}
+.bt2{
+    display: flex;
+width: 280.451px;
+height: 80.151px;
+transform: rotate(1deg);
+padding: 19.367px 31.694px 6.274px 31.694px;
+flex-direction: row;
+align-items: flex-start;
+gap: 20px;
+border: 6.274px solid #000;
+border: 6.274px solid #000;
+background: linear-gradient(180deg, #00D4FF 0%, #09C 100%);
+box-shadow: 0 -1px 19px 0 rgba(0, 255, 136, 0.52);
+align-items: center;
+}
+.bt3{
+    display: flex;
+width: 280.451px;
+height: 80.151px;
+transform: rotate(1deg);
+padding: 19.367px 31.694px 6.274px 31.694px;
+flex-direction: row;
+align-items: flex-start;
+gap: 20px;
+border: 6.274px solid #000;
+background: linear-gradient(180deg, #B537F2 0%, #8B1FD4 100%);
+box-shadow: 0 -1px 19px 0 rgba(0, 255, 136, 0.52);
+align-items: center;
+}
+.white{ color: var(--white);}
+
+.s1div2{
+    width: 557px;
+height: 711px;
+background-color: #09C;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.portal{
+    width: 557px;
+height: 560px;
+aspect-ratio: 557/560;
+border-radius: 443px;position: relative;
 }
