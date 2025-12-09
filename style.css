@@ -427,7 +427,7 @@ aspect-ratio: 98/107; margin-left: 50px; margin-top: 160px;}
    
     width: 100%;
     height:1100px;
-    background-image: url(assets/Group\ 22.png);
+    background-image: url(assets/Group\ 29.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -42px;
@@ -530,8 +530,8 @@ box-shadow: 0 4px 36.2px 0 rgba(191, 222, 66, 0.47);
 .img4{background-image: url(assets/i19.png);}
 .s1p2{
     width: 100%;
-   height: 1252px;
-    background-image: url(assets/Group\ 22.png);
+   height: 1352px;
+    background-image: url(assets/Group\ 29.png);
     background-repeat: no-repeat;
     background-size: cover;
   display: flex;
@@ -546,14 +546,12 @@ height: 62.568px;
 transform: rotate(-2deg);
 padding: 19.348px 26.811px 21.067px 28.736px;
 justify-content: center;
-align-items: flex-end;
+align-items: center;
 gap: 8.833px;
 border: 4px solid #000;
 background: #0F8;
 margin-top: 200px;
-
-    margin: 0; /* remove center influence */
-position: fixed;
+margin: 0; /* remove center influence */
 }
 .arrow{
     width: 20.686px;
@@ -565,11 +563,25 @@ background-size: contain;
 .btp{
     color: #000;
 text-align: center;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 }
+.backbt:hover {
+    transform: rotate(0deg) scale(1.05); /* straighten & slightly bigger */
+    box-shadow: 0 0 20px 5px rgba(0, 255, 136, 0.7); /* neon glow */
+    cursor: pointer; /* show pointer cursor */
+}
+
+.backbt:hover .btp {
+    color: #FFF; /* text color changes on hover */
+}
+
+.backbt:hover .arrow {
+    filter: brightness(1.5); /* makes the arrow brighter */
+}
+
 .ccdiv{
     width: 1188px;
 height: 883px;
@@ -596,7 +608,7 @@ justify-content: center;
 
 .charinfo{
     width: 734px;
-height: 876px;
+height: 1076px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -625,10 +637,10 @@ line-height: normal;
     display: flex;
 width: 734px;
 height: 257px;
-padding: 24px 89px 0 24px;
+    padding: 24px 89px 24px 24px;
 flex-direction: column;
 align-items: flex-start;
-gap: 37px;
+gap: 10px;
 border-radius: 14px;
 border: 1.6px solid #0F8;
 background: rgba(0, 0, 0, 0.85);
@@ -685,3 +697,4 @@ font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 142.857% */
 }
+.m5{margin-top: 1px;}
