@@ -351,3 +351,85 @@ background-repeat: no-repeat;
  z-index: 10;
  position: relative;
 }
+.l{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+.vector{
+    width: 100%;
+    height: 980.722px;
+    background-image: url(assets/Vector\ 88.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.chardiv{
+    width: 1270px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+height: 553px;
+}
+.mdiv{
+    width: 322.332px;
+height: 553px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+.m1{background-image: url(assets/m2.png);width: 187px;
+height: 482px;
+aspect-ratio: 187/482;position: relative;z-index: 10;}
+.m2{background-image: url(assets/m1.png);position: relative;z-index: 10; width: 165px;
+height: 482px;
+aspect-ratio: 165/482;}
+.m3{background-image: url(assets/m3.png);position: relative;z-index: 10;width: 297px;
+height: 437px;
+aspect-ratio: 297/437;margin-top: 60px;}
+.m4{background-image: url(assets/m4.png);position: relative;z-index: 10; width: 294px;
+height: 321px;
+aspect-ratio: 98/107; margin-left: 50px; margin-top: 160px;}
+.m1, .m2, .m3, .m4 {
+    transition: transform 0.3s ease;
+    transform-origin: center; /* grows from center */
+}
+
+.m1:hover,
+.m2:hover,
+.m3:hover,
+.m4:hover {
+    transform: scale(1.1); /* 10% bigger */
+}
+
+@keyframes pulsePortal {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.08); opacity: 0.9; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.portal2 {
+    height: 87px;
+    width: 322.332px;
+    background-image: url(assets/portal33.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 87/322.33;
+    margin-top: -30px;
+    animation: pulsePortal 2s ease-in-out infinite;
+}
+.s3{
+   
+    width: 100%;
+    height:1100px;
+    background-image: url(assets/Group\ 22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -42px;
+
+}
